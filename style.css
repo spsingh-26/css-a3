@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(219, 218, 218);
+}
+.welcome{
+    font-size: 26px;
+    color: blue;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 280px;
+    height: 100px;
+    padding: 10px;
+    margin: 40px auto;
+    text-align: center;
+}
+.container{
+    border: 5px solid goldenrod;
+    display: flex;
+}
+.para{
+    background-color: white;
+    border: 4px solid greenyellow;
+    color: blueviolet;
+    font-size: 22px;
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+}
+.img{
+    background-color: wheat;
+    border: 4px solid greenyellow;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin-left: 800px;
+}
+
+.notebox{
+    border: 5px solid darkolivegreen;
+    background-color: green;
+    text-align: center;
+    width: 650px;
+    height: 550px;
+    margin: 20px auto;
+    font-style: italic;
+}
+.note{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    font-style: italic;
+    margin: 5px auto;
+}
+.sticky {
+    height: 80px;
+    width: 450px;
+    color: brown;
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color: lime;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 7px 6px 3px purple;
+    margin-left: 400px;
+    align-items: center;
+    font-style: italic;
+    position: fixed;
+  }
